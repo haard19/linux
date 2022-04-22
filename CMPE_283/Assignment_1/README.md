@@ -88,11 +88,11 @@ This assignment focuses on the creation of a Linux kernel module to query variou
 ```
 14. In the previously cloned "linux" source folder, create a new directory called "cmpe283" using the command below.<br />
 ```
-   mkdir cmpe283
+   mkdir CMPE_283/Assignment_1
 ```  
 15. To go to the cmpe283 directory, use the command:<br />
 ```
-   cd cmpe283
+   cd CMPE_283/Assignment_1
 ```   
 16. To the cmpe283 directory, copy the "Makefile" and cmpe283-1.c that are provided.
 17. Add the following required licenses into the .c file that we copied:
