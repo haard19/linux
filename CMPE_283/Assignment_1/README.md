@@ -118,3 +118,7 @@ This assignment focuses on the creation of a Linux kernel module to query variou
 ```
     dmesg 
 ```
+
+## Output:
+
+![image](CMPE283_Ass1.png?raw=True)
