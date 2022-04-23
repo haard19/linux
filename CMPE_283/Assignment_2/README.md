@@ -26,7 +26,7 @@ The assignment is to modify the CPUID emulation code in KVM to report back addit
 
 ### Ronak Kalpesh Prajapati (SJSU ID: 015271958)
 
-* Setup the environment in macOS using VMware Workstation Player and downloaded the Linux ISO file. 
+* Setup the environment in Windows using VMware Workstation Player and downloaded the Linux ISO file. 
 * Built a VM successfully in the first attempt by allocating 150GB storage and 8GB RAM to it.
 * Built another VM inside using the Ubuntu ISO file.
 * Tested the machine to check its capability for VMX virtualization. 
@@ -37,7 +37,7 @@ The assignment is to modify the CPUID emulation code in KVM to report back addit
 
 #### Steps:
 
-1. We followed the steps to install the VM, then Ubuntu on our Intel-based MacBook pro. Installed ISO - Ubuntu, allocated disk space of 150GB.
+1. We followed the steps to install the VM, then Ubuntu on our Intel-based machine. Installed ISO - Ubuntu, allocated disk space of 150GB.
 
 2. We have cloned the Linux github repository, using following command: 
 ```
