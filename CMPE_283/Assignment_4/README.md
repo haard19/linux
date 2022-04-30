@@ -41,14 +41,14 @@ insmod /lib/modules/5/kernel/arch/x86/kvm/kvm-intel.ko ept=0
 ## Q2. Include a sample of your print of exit count output from dmesg from “with ept” and “without ept”.
 ### Screenshots: 
 #### Nested paging:
-![alt text](/images/nested.png?raw=True)
+![alt text](/images/nested.png?raw=true)
 
 #### Shadow paging:
 Boot:
-![alt text](/images/shadow1.png?raw=True)
+![alt text](/images/shadow1.png?raw=true)
 
 After reboot:
-![alt text](/images/shadow2.png?raw=True)
+![alt text](/images/shadow2.png?raw=true)
 
 ## Q3. What did you learn from the count of exits? Was the count what you expected? If not, why not?
 In shadow paging, the number of exits increases when compared to nested paging. This is expected because during nested paging VM exit occurs when an EPT violation occurs. But in the case of shadow paging, it could exit every time the VM attempts to execute CR0, CR3, CR4 or any exits which are related to paging such as a page fault. 
